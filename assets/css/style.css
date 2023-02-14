@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans.ttf");
+}
+
+
+
+html {
+    font-family: 'Roboto';
+    font-size: 10px;
+
+}
+
+
+
+header {
+    background: url('../img/titel-bild.jpg') center / cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    color: #fff;
+    font: size 50px;
+    margin-top: 30vh;
+    margin-left: 50px;
+}
+
+header h1 span {
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+
+
+
+.content {
+    height: 97vh;
+    overflow: scroll;
+}
+
+main {
+    background-color: #f7f7f7;
+}
+
+.article {
+    margin: 0 20%;
+    text-align: center;
+    padding-bottom: 25vh;
+}
+
+.bulk {
+    font-family: 'Roboto';
+    font-size: 3.5rem;
+    color: #202124;
+    padding-top: 25vh;
+    padding-bottom: 2vh;
+}
+
+.article p {
+    font-size: 1.6rem;
+    color: #4a4a4a;
+    width: 56%;
+    padding: 1vh 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article p a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+main div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    text-align: center;
+    padding-bottom: 20vh;
+}
+
+.section p {
+    margin: 0 35%;
+    font-size: 1.6rem;
+    color: #4a4a4a;
+    padding: 1vh 0;
+}
+
+.section div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 5vh;
+}
+
+.section div img {
+    width: 40vw;
+}
+
+
+
+footer h3 {
+    font-size: 2.5rem;
+    width: 23%;
+    margin: 30vh auto;
+    text-align: center;
+}
+
+
+footer article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+footer section {
+    width: 40%;
+    text-align: center;
+}
+
+footer article section .logo div {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
+footer article p {
+    font-size: 1rem;
+    color: #4a4a4a;
+    width: 20%;
+    line-height: 15px;
+    text-align: center;
+}
+
+footer article a {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    text-decoration: none;
+    width: 40%;
+    text-align: center;
+}
+
+footer article a:hover {
+    text-decoration: underline;
+}
+
+
+
+.overflow_element {
+    text-align: right;
+    padding: 5px 20px 0 5px;
+    font-size: 1.4rem;
+}
